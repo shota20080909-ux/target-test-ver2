@@ -1,0 +1,5 @@
+body { font-family:sans-serif; text-align:center; background:#fffef5; margin:0; padding:20px; }
+h1 { color:#333; }
+.hidden { display:none; }
+input, button, select { padding:10px; margin:5px; font-size:1em; }
+#wrongWords li { list-style:none; margin:4px; }

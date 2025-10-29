@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>語彙力テスト（生徒用）</title>
+<link rel="stylesheet" href="student.css">
+</head>
+<body>
+
+<h1>語彙力テスト（生徒用）</h1>
+
+<div id="unitArea">
+<select id="unitSelect"></select>
+<button onclick="startQuiz()">テスト開始</button>
+</div>
+
+<div id="testArea" class="hidden">
+<h3 id="quizWord"></h3>
+<p id="remaining"></p>
+<input type="text" id="answer" placeholder="英語を入力">
+<p id="result"></p>
+<button onclick="endQuiz()">終了</button>
+</div>
+
+<div id="wrongList" class="hidden">
+<h3>間違えた単語一覧</h3>
+<ul id="wrongWords"></ul>
+<p id="score"></p>
+<button onclick="restartQuiz()">もう一度テストする</button>
+</div>
+
+<script src="student.js"></script>
+
+</body>
+</html>
