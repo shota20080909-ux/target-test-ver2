@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #eef8ff;
+  padding: 30px;
+}
+h1 { color: #333; }
+#quizWord { font-size: 2em; margin: 20px; }
+input { font-size: 1.2em; padding: 10px; width: 250px; }
+button { padding: 10px 20px; margin: 10px; font-size: 1em; cursor: pointer; }
